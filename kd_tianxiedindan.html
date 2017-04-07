@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>口袋优品-填写订单信息</title>
+		<link rel="shortcut icon" href="img/fav.ico" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/kd_txdd.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<div class="top">
+				<div class="content clearfix">
+					<ul class="top_con fl clearfix">
+						<li><a href="#">旧机回收</a></li>
+						<li><a href="#">手机维修</a></li>
+						<li><a href="#">用户评价</a></li>
+					</ul>
+					<ul class="top_con fr clearfix">
+						<li><a href="#">登录</a></li>
+						<li><a href="#">免费注册</a></li>
+						<li class="phone_qrcode">
+							<a href="#">手机口袋优品<i class="down icon_index"></i></a><span style="width: 0;color: transparent;"></span>
+							<div class="qrcode">
+								<div class="img_qr"><img src="img/maesqrcode.png"/></div>
+								<p>扫码访问口袋优品</p>
+								<p>购物随时随地随心</p>
+							</div>
+						</li>
+						<li><a href="#">个人中心</a></li>
+						<li><a href="#">服务保障</a></li>
+						<li class="web_nav">
+							<a href="#">网站导航<i class="down icon_index"></i></a><span style="width: 0;color: transparent;"></span>
+							<div class="wn">
+								<dl>
+			                        <dt>主要频道</dt>
+			                        <dd><a href="#">旧机回收</a></dd>
+			                        <dd><a href="#">口袋优品</a></dd>
+			                        <dd><a href="#">手机快修</a></dd>
+			                    </dl>
+			                    <dl>
+			                        <dt>其他频道</dt>
+			                        <dd><a href="#">用户评价</a></dd>
+			                        <dd><a href="#">走近小哥</a></dd>
+			                    </dl>
+			                    <dl>
+			                        <dt>相关服务</dt>
+			                        <dd><a href="#">服务条款</a></dd>
+			                        <dd><a href="#">投诉建议</a></dd>
+			                    </dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--交易流程-->
+		
+		<div class="flow_head">
+			<div class="content clearfix">
+				<h1 class="logo fl"><a href="index_koudai.html" class="icon_index"></a></h1>
+				<ul class="steps fr clearfix">
+					<li class="steps_1 done">
+						<i></i>
+						<span>选择服务</span>
+					</li>
+					<li class="steps_2 done">
+						<i></i>
+						<span>填写核对订单信息</span>
+					</li>
+					<li class="steps_3">
+						<i></i>
+						<span>选择支付方式</span>
+					</li>
+					<li class="steps_4">
+						<i></i>
+						<span>完成支付</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--交易流程 结束-->
+		
+		<div class="tjxx">
+			<div class="content item_list">
+				<div class="items user_info">
+					<span>收货信息</span>
+					
+						<div class="save_info" style="display: none;" >
+							<div class="save_info_1 clone" style="display: none;">
+								<span class="save_name"></span>
+								<span class="save_phone"></span>
+								<span class="save_adress"></span>
+								<span class="save_xxadress"></span>
+								<p class="edit">
+									<a href="javascript:" class="revise">修改</a>
+									<a href="javascript:;" class="del">删除</a>
+								</p>
+							</div>
+							<div class="new_info">
+								<span class="new_info_1">+</span>
+								<span>添加新地址</span>
+							</div>
+						</div>
+					
+					
+					<div class="info clearfix ">
+						<form action="#" method="post">
+							<p class="clearfix">
+								<label for="name" class="name">
+									<span>收货人姓名<i class="red">*</i></span>
+									<input type="text" name="name" id="name" value="" placeholder="收货人姓名不少于2个字符"/>
+									<i>请输入内容</i>
+								</label>
+								<label for="phone_num" class="phone_num">
+									<span>收货人手机号<i class="red">*</i></span>
+									<input type="text" name="phone_num" id="phone_num" value="" placeholder="请输入11位手机号码"/>
+									<i>请输入内容</i>
+								</label>
+							</p>
+							<p class="clearfix">
+								<label for="address" class="address">
+									<span>收货人地址<i class="red">*</i></span>
+									<select name="" class="prov"></select>
+									<select name="" class="city" style="display: none;"></select>
+									<select name="" class="town" style="display: none;"></select>
+									<i class="erro_i">请选择地址</i>
+								</label>
+							</p>
+							<p  class="clearfix">
+								<label for="xx_address" class="xx_address">
+									<span>详细地址<i class="red">*</i></span>
+									<input type="text" name="xx_address" id="xx_address" value="" placeholder="请输入不少于4个字符的详细地址，如：路名、门牌号"/>
+									<i>请输入内容</i>
+								</label>
+							</p>
+							<p class="save">
+								<label for="default" class="default">
+									<input type="checkbox" name="default" id="default" value="" />
+									设为默认地址
+								</label>
+								<input type="button" name="" id="save_btn" value="保存" />
+								<input type="button" name="save_btn_1" id="save_btn_1" value="保存"  style="display: none;"/>
+								<input type="button" name="" id="qx_btn" value="取消" style="display: none;"/>
+							</p>
+						</form>
+					</div>
+				</div>
+				
+				
+				<div class="items">
+					<span>配送方式</span>
+					<div class="info"><p class="color_c">快递配送（顺丰速运 免运费)</p></div>
+				</div>
+				<div class="items">
+					<span>发票信息</span>
+					<div class="info">
+						<p class="color_c">不需要发票，17:00前提交订单当天发货 <a href="javascript:;" class="change">[修改]</a></p>
+					</div>
+					<div class="select_info" style="display: none;">
+						<span class="active no_fp">不需要发票</span>
+						<span class="pt_fp">普通发票（纸质）</span>
+						<div class="need_fp" style="display: none;">
+							<span class="gr active">个人</span>
+							<span class="dw">单位</span>
+							<input type="text" name="" id="fp" value="" placeholder="请输入发票抬头" style="display: none;"/>
+						</div>
+						<div class="fp_type" style="display: none;">
+							<p>发票类型：<i>普通发票</i> </p>
+							<p>发票内容：<i> 二手手机销售</i> </p>
+						</div>
+					</div>
+				</div>
+				<div class="items sure">
+					<span>确认订单信息</span>
+					<p class="info"><a href="kd_ch_servers.html" class="resel">重新选择服务></a></p>
+					<table border="0" cellspacing="0" cellpadding="0">
+						<thead>
+							<tr>
+								<th></th>
+								<th>商品</th>
+								<th>价格</th>
+								<th>优惠</th>
+								<th>小计</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><p class="img"><img src="img/goods_img.jpg" alt="" /></p></td>
+								<td>
+									
+									<p>苹果 9成新 iPhone 6s 玫瑰金色 16G 全网通 国行 过保</p>
+								</td>
+								<td>￥2899.00</td>
+								<td>--</td>
+								<td><span class="price">￥2899.00</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="total">
+					<div class="favo fl">
+						<span class="use_favo"><i>+</i>使用优惠券</span>
+						<p class="hide">
+							<input type="text" name="" id="" value="" placeholder="请输入优惠券"/>
+							<input type="button" name="" id="" value="立即使用" />
+						</p>
+					</div>
+					<div class="sum fr">
+						<p>商品总计：<span>￥2899</span></p>
+						<p>优惠总额：<span>￥0</span></p>
+						<p>优惠券抵扣：<span>￥0</span></p>
+						<p>应付金额：<span class="price">￥2899</span></p>
+						<a href="kd_xzzf.html"><input type="button" name="" id="" value="提交菜单" class="ow"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--出现底部提交按钮-->
+		<div class="fixed">
+			<div class="content">
+				<span>应付金额：<i class="color_c">2899元</i></span>
+				<input type="button" name="" id="" value="提交菜单" class="ow" onclick="window.location.href='kd_xzzf.html'"/>
+			</div>
+			
+		</div>		
+		
+		
+			
+		<!--服务保障-->
+		<div class="wrap bg">
+			<div class="content">
+				<ul class="server">
+					<li>
+						<span class="icon_index item_1"></span>
+						<p>品质保证</p>
+						<span>专业质检检测</span>
+					</li>
+					<li>
+						<span class="icon_index item_2"></span>
+						<p>售后无忧</p>
+						<span>7天退货，180天质保</span>
+					</li>
+					<li>
+						<span class="icon_index item_3"></span>
+						<p>深度清洁</p>
+						<span>确保焕然一新</span>
+					</li>
+					<li>
+						<span class="icon_index item_4"></span>
+						<p>全场包邮</p>
+						<span>顺丰包邮极速送达</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--底部信息-->
+		<div class="footer">
+			<div class="content clearfix">
+				<ul class="footer_list fl">
+					<li>
+						<p>交易方式</p>
+						<a href="#">上海交易方式</a>
+						<a href="#">北京交易方式</a>
+						<a href="#">全国交易方式</a>
+					</li>
+					<li>
+						<p>质检说明</p>
+						<a href="#">质检名词解释</a>
+						<a href="#">专业质检说明</a>
+					</li>
+					<li>
+						<p>帮助中心</p>
+						<a href="#">常见问题</a>
+						<a href="#">服务条款</a>
+					</li>
+					<li>
+						<p>关于我们</p>
+						<a href="#">了解我们</a>
+						<a href="#">加入我们</a>
+					</li>
+				</ul>
+				<div class="kd-qrcode fl">
+					<img src="img/icon_wechat.jpg"/>
+					<div class="fr">
+						<p class="kd-qrcode_title">口袋优品官方微信</p>
+						<p>扫描二维码</p>
+						<p>即刻与口袋优品亲密互动</p>
+						<p>还有劲爆优惠等你来拿！</p>
+					</div>
+					
+				</div>
+				<div class="kefu fr">
+					<p class="number">400-851-9811</p>
+					<p>周一至周日 9:00-18:00</p>
+					<a href="#">
+						<i class="icon_index"></i>
+						在线客服咨询
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		<p class="bottom">Copyright 2010-2017 上海悦易网络信息技术有限公司     沪ICP备10043802号 - 4</p>
+		
+		<!--侧边回到顶部-->
+		<div class="sider_kf">
+			<div class="kf">
+				<a href="javascript:;">
+					<span class="icon_index"></span>
+					在线客服
+				</a>
+				<div class="inline_kf">
+					<p class="inline_kf_tit"><b>口袋优品在线客服</b></p>
+					<a href="#" class="buy_info"><i class="icon_index"></i>购买咨询</a>
+					<a href="#"><i class="icon_index"></i>售后服务</a>
+					<p class="inline_kf_time">
+						<b>工作时间</b>
+						<span>周一至周日9:00-18:00</span>
+					</p>
+					
+				</div>
+			</div>
+			<div class="back_top">
+				<a href="javascript:;">
+					<span class="icon_index"></span>
+					回到顶部
+				</a>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/distpicker.data.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/distpicker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/kd_txdd.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+		});
+	</script>
+</html>

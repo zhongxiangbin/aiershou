@@ -1,0 +1,174 @@
+.flow_head,.choose_servers{
+	width: 100%;
+}
+
+/*交易流程 	s*/
+
+/*交易流程 	e*/
+
+/*服务条款选择  s*/
+.col-left{
+	width: 880px;
+	background-color: #FFFFFF;
+}
+.col-left,.col-right{
+	border: 1px solid #f3f3f3;
+	box-shadow: 0 0 10px #efefef;
+}
+.title{
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	padding-left: 28px;
+	border-bottom: 1px solid #F3F3F3;
+}
+.col-left-con p.title{
+	border-bottom: none;
+}
+.choose{
+	padding: 28px;
+}
+.choose .img{
+	width: 178px;
+	height: 169px;
+	float: left;
+	margin-right: 20px;
+}
+.choose .choose_inp{
+	width: 580px;
+}
+.choose .choose_inp label{
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	font-size: 14px;
+	cursor: pointer;
+}
+.choose .choose_inp label input[type=checkbox]{
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 10px;
+/*	appearance: none;
+    -moz-appearance: normal;
+    -webkit-appearance: none;*/
+}
+.choose .choose_inp label input[type=checkbox]:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	background: #FFFFFF url(../img/icon-tick.png) no-repeat;
+}
+.choose .choose_inp label.choose_lab input[type=checkbox]:after{
+	background-position: 0px -28px;
+}
+.choose .choose_inp label p{
+	float: left;
+	margin-left: 14px;
+}
+.choose .choose_inp label p span{
+	display: block;
+	line-height: 1.5;
+}
+.choose .choose_inp label span.money{
+	float: right;
+	color: #999999;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+.choose .check{
+	padding: 15px 20px;
+    line-height: 23px;
+    background: #f9f9f9;
+    font-size: 14px
+}
+.choose .check a.service-rule{
+	display: block;
+	text-align: right;
+}
+/*服务条款选择  e*/
+/*购物清单 s*/
+.col-right{
+	width: 290px;
+	background-color: #FFFFFF;
+}
+.img{
+	margin: 20px auto;
+	position: relative;
+}
+.img img{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	margin-right: -70px;
+}
+.img p{
+	padding: 20px 0px 20px 80px;
+	font-size: 12px;
+	line-height: 2;
+}
+.goods{
+	padding: 0 28px;
+}
+.goods .ow{
+	border: 0;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #2A70E9;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.goods>p{
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+	margin: 10px 0;
+}
+.goods>p .price{
+	color: #FF6600;
+}
+.add{
+	border-top: 1px solid #F3F3F3;
+	padding: 0 28px;
+	display: none;
+}
+.add p{
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+}
+.add p span{
+	float: right;
+	cursor: pointer;
+}
+.add span{
+	color: #666666;
+	font-size: 16px;
+	height: 48px;
+	line-height: 48px;
+}
+.choose_servers{
+	padding-bottom: 50px;
+}
+
+.fixed{
+	position: fixed;
+    top: 0;
+    right: 50%;
+    margin-right: -595px;
+}
+/*购物清单 e*/
+
+
+
+

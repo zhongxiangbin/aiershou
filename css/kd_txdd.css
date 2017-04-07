@@ -1,0 +1,373 @@
+.tjxx{
+	padding-bottom: 90px;
+}
+.red{
+	color: red;
+	padding:0 10px;
+}
+.item_list{
+	border: 1px solid #f3f3f3;
+	box-shadow: 0 0 10px #efefef;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.items{
+	border-bottom: 1px solid #f3f3f3;
+	padding: 20px auto;
+	color: #666666;
+	font-size: 14px;
+	position: relative;
+	
+}
+
+.items>span{
+	font-size: 16px;
+	color: #333333;
+	position: absolute;
+	margin-right: -120px;
+	width: 120px;
+	text-align: left;
+	margin-top: 7px;
+}
+.items .info,.items .select_info{
+	padding-left: 125px;
+	width: 790px;
+}
+
+.items .select_info{
+	margin: 38px 0;;
+}
+.items .select_info span{
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.items .select_info span.active{
+	border-color: #2A70E9;
+	color: #2A70E9;
+}
+.items .select_info .need_fp input[type=text]{
+	width: 190px;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	line-height: 40px;
+	font-family: "microsoft yahei";
+	padding-left: 10px;
+}
+.items .select_info .fp_type{
+	overflow: hidden;
+}
+.items .select_info .fp_type p{
+	float: left;
+	margin-right: 50px;
+}
+.items .select_info .fp_type p i{
+	color: #333333;
+}
+
+.items .save_info{
+	margin-bottom: 30px;
+	padding-left: 125px;
+	width: 790px;
+	overflow: hidden;
+}
+.items .save_info .save_info_1,.items .save_info .new_info{
+	width: 235px;
+	height: 170px;
+	padding: 15px 20px;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 18px;
+	cursor: pointer;
+	margin-bottom: 18px;
+}
+.items .save_info .save_info_1.active{
+	border-color: #2A70E9;
+}
+.items .save_info .new_info span{
+	text-align: center;
+	display: block;
+}
+.items .save_info .new_info .new_info_1{
+	color: #FFFFFF;
+	background-color: #d2d2d2;
+	height: 22px;
+	width: 22px;
+	margin-top: 40px;
+    margin-left: 83px;
+}
+
+.items .save_info .save_info_1 span{
+	display: block;
+	line-height: 2;
+}
+.items .save_info .save_info_1 .edit{
+	display: none;
+}
+.items .save_info .save_info_1:hover .edit{
+	display: block;
+}
+/*收货人信息 s*/
+.user_info{
+	
+}
+.items .info p{
+	height: 40px;
+	line-height: 40px;
+	margin: 25px 0;
+}
+.items .info form p label{
+	display: block;
+	position: relative;
+}
+.items .info form p label>i{
+	display: none;
+}
+.items .info form p label.erro>i{
+	display: block;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	color: #FFFFFF;
+	background-color: #ff9966;
+	font-size: 12px;
+	padding: 5px;
+	display: inline;
+	line-height: 1.5;
+}
+.items .info form p label i.erro_i{
+	/*display: inline-block;*/
+	color: #FF0000;
+}
+.items .info form p label.erro input{
+	border: 1px solid #ff9966;
+}
+
+.items .info form p label span{
+	text-align: left;
+	width: 100px;
+}
+.items .info form p label input{
+	border: 1px solid #CCCCCC;
+	vertical-align: middle;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px;
+	font-family: "microsoft yahei";
+}
+.name input,.phone_num input{
+	width: 240px;
+}
+.items .info form p label.name{
+	float: left;
+}
+.items .info form p label.phone_num{
+	float: right;
+}
+.items .info form p label.phone_num span{
+	width: 120px;
+}
+.address select{
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	margin-right: 15px;
+	font-family: "microsoft yahei";
+	padding: 8px 0;
+	padding-right: 17px;
+	
+}
+.xx_address input{
+	width: 662px;
+}
+.save {
+	float: right;
+}
+.save label.default{
+	text-align: right;
+	float: left;
+}
+.save input[type=button]{
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #2A70E9;
+	border: 0;
+	font:16px/40px "microsoft yahei";
+	color: #FFFFFF;
+	cursor: pointer;
+	float: left;
+	margin-left: 20px;
+}
+#qx_btn{
+	background-color: #efefef;
+	color: #555555;
+}
+.color_c{
+	color: #FF6600;
+}
+/*收货人信息  e*/
+
+/*确认订单信息 s*/
+.sure{
+	
+}
+.sure>span{
+	
+}
+.sure .info{
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+	width: auto;
+}
+.sure .info a{
+	color: #999999;
+}
+.sure table{
+	width: 100%;
+}
+.sure table thead tr{
+	border-radius: 5px;
+	background-color: #f4f4f4;
+}
+.sure table th{
+	height: 30px;
+	line-height: 30px;
+	color: #555555;
+	text-align: left;
+}
+.sure table td{
+	/*text-align: left;*/
+}
+.sure table td p.img{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px auto;
+	margin-right: -36px;
+    padding-left: 36px;
+	
+}
+.price{
+	color: #FF6600;
+}
+
+/*确认订单信息 e*/
+
+/*统计提交 s*/
+.total{
+	overflow: hidden;
+	margin: 35px auto;
+}
+.total .favo{
+	width: 500px;
+}
+.total .favo .use_favo{
+	display: block;
+	text-align: left;
+	color: #2A70E9;
+	cursor: pointer;
+	font-size: 16px;
+}
+.total .favo .use_favo i{
+	width: 15px;
+	height: 15px;
+	
+}
+.total .favo p{
+	overflow: hidden;
+	margin: 20px auto;
+}
+.total .favo p input[type=text]{
+	width: 300px;
+	height: 38px;
+	line-height: 40px;
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding-left: 10px;
+}
+.total .favo p input[type=button]{
+	height: 42px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #2A70E9;
+	width: 140px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	float: left;
+	font-family: "microsoft yahei";
+}
+.total .sum{
+	font-size: 16px;
+	color: #666666;
+	width: 245px;
+	text-align: right;
+}
+.total .sum p{
+	padding: 6px auto;
+}
+.total .sum p span{
+	width: 85px;
+}
+.ow{
+	border: 0;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #2A70E9;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 30px auto;
+}
+
+/*统计提交 e*/
+
+.fixed{
+	/*display: none;*/
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #FFFFFF;
+	width: 100%;
+	height: 76px;
+	line-height: 76px;
+	text-align: right;
+	font-size: 20px;
+	box-shadow: 0 -6px 6px hsla(0,0%,85%,.5);
+	color: #666666;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.fixed .ow{
+	display: inline-block;
+	width: 245px;
+	float: right;
+	vertical-align: middle;
+	margin: 15px;
+}
+
+

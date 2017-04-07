@@ -1,0 +1,141 @@
+.tjxx{
+	padding-bottom: 90px;
+}
+.tjxx .content{
+	border: 1px solid #f3f3f3;
+	box-shadow: 0 0 10px #efefef;
+	box-sizing: border-box;
+}
+.zf_price{
+	padding: 30px;
+	background-color: #fafafa;
+	
+}
+.fk{
+	margin: 20px auto;
+}
+.fk span{
+	display: block;
+	line-height: 1.75;
+}
+.fk .fr{
+	text-align: right;
+}
+.fk .fr span.f14{
+	cursor: pointer;
+}
+.fk .fr span .icon_index{
+	width: 16px;
+	height: 7px;
+	vertical-align: middle;
+	margin-left: 3px;
+}
+.fk .fr span .icon_index.down{
+	background-position: -22px -551px;
+}
+.fk .fr span .icon_index.up{
+	background-position: -22px -622px;
+}
+.xq p{
+	line-height: 1.75;
+}
+.xq p span{
+	width: 85px;
+	text-align: left;
+}
+
+/*选择支付方式*/
+
+.zfpt{
+	position: relative;
+	padding: 30px;
+	color: #666666;
+}
+.zfpt span{
+	position: absolute;
+	width: 85px;
+	margin-right: -85px;
+	text-align: left;
+	height: 60px;
+    line-height: 60px;
+}
+.zfpt ul{
+	padding-left: 85px;
+	overflow: hidden;
+}
+.zfpt ul li{
+	float: left;
+	width: 230px;
+	height: 60px;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	position: relative;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.icon_arr{
+	background: url(../img/icon-rrade.png) no-repeat;
+}
+.zfb{
+	background-position: 0 0;
+}
+.wx{
+	background-position: 0 -80px;
+}
+.jd{
+	background-position: 0 -160px;
+}
+.yl{
+	background-position: 0 -240px;
+}
+.myhb{
+	background-position: 0 -320px;
+}
+.zfpt ul li.selected{
+	border: 1px solid #2A70E9;
+}
+.zfpt ul li.selected:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/icon-rrade.png) no-repeat -216px -400px;
+}
+
+.zf_btn{
+	padding-left: 115px;
+	margin-bottom: 70px;
+}
+.zf_btn input[type=button]{
+	border: none;
+	width: 230px;
+	height: 43px;
+	line-height: 43px;
+	color: #FFFFFF;
+	background-color: #2A70E9;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.color_c{
+	padding: 0 3px;
+}
+
+
+
+
+
+
+
